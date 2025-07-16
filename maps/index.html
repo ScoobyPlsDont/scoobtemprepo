@@ -47,6 +47,12 @@
     margin-top: 2rem;
     font-size: 0.9rem;
 }
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+  /* Styles to apply for phones in portrait mode */
+  .spec {
+    opacity:0;
+  }
+}
     </style>
 
 
@@ -89,8 +95,8 @@
 -->
         <!--Image with the team thing-->
         <div class="image-object py-4 text-center container opacity-75">   
-            <p class="hlep fs-1 text-black fw-bolder" style="font-size: 60px !important; ">Yeeps Moon Team Maps</p>
-            <p class="fs-2 text-black">Explore the maps created by the Yeeps Moon Team!</p>
+            <p class="hlep fs-1 text-black fw-bolder" style="font-size: 60px !important; ">Yeeps Moon Team <span class="spec">Maps</span></p>
+            <p class="fs-2 text-black spec">Explore the maps created by the Yeeps Moon Team!</p>
         </div>
     <!--Description-->
     

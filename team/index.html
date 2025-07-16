@@ -53,6 +53,12 @@
     margin-top: 2rem;
     font-size: 0.9rem;
 }
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+  /* Styles to apply for phones in portrait mode */
+  .spec {
+    opacity:0;
+  }
+}
     </style>
 
 
@@ -112,7 +118,7 @@
 -->
         <!--Image with the team thing-->
         <div class="image-object py-4 text-center container opacity-75">   
-            <p class="hlep fs-1 text-black fw-bolder" style="font-size: 60px !important; ">Yeeps Moon Team Members</p>
+            <p class="hlep fs-1 text-black fw-bolder" style="font-size: 60px !important; ">Yeeps Moon Team<span class="spec"> Members</span></p>
         </div>
     
 
